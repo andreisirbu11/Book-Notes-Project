@@ -1,3 +1,23 @@
+# Ignore images and media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.mp4
+*.mp3
+
+# Ignore system/IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore build/dist folders
+build/
+dist/
+
 # Logs
 logs
 *.log

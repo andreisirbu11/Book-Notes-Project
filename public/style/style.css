@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+
+.navbar-custom {
+    background-color: #4a5568; /* nice dark slate blue */
+  }
+  .search-form input {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .search-form button {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .card-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+  }
